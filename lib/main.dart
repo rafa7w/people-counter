@@ -54,6 +54,13 @@ class HomePage extends StatelessWidget {
             children: [
               TextButton(
                 onPressed: decrement,
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  fixedSize: const Size(100, 100),
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(24)),
+                ),
                 child: const Text(
                   'Sair',
                   style: TextStyle(
@@ -64,6 +71,13 @@ class HomePage extends StatelessWidget {
               ),
               TextButton(
                 onPressed: increment,
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  fixedSize: const Size(100, 100),
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(24)),
+                ),
                 child: const Text(
                   'Entrou',
                   style: TextStyle(
